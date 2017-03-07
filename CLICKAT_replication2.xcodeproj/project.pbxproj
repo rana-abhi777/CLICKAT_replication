@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD179D71E6E976D00E4A72A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179D61E6E976D00E4A72A /* AppDelegate.swift */; };
+		1DD179D91E6E976D00E4A72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179D81E6E976D00E4A72A /* ViewController.swift */; };
+		1DD179DC1E6E976D00E4A72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD179DA1E6E976D00E4A72A /* Main.storyboard */; };
+		1DD179DF1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179DD1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld */; };
+		1DD179E11E6E976D00E4A72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD179E01E6E976D00E4A72A /* Assets.xcassets */; };
+		1DD179E41E6E976D00E4A72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD179E21E6E976D00E4A72A /* LaunchScreen.storyboard */; };
+		1DD179EC1E6E987F00E4A72A /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179EB1E6E987F00E4A72A /* MainCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DD179D31E6E976D00E4A72A /* CLICKAT_replication2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLICKAT_replication2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD179D61E6E976D00E4A72A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DD179D81E6E976D00E4A72A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DD179DB1E6E976D00E4A72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DD179DE1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLICKAT_replication2.xcdatamodel; sourceTree = "<group>"; };
+		1DD179E01E6E976D00E4A72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DD179E31E6E976D00E4A72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DD179E51E6E976D00E4A72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD179EB1E6E987F00E4A72A /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD179D01E6E976D00E4A72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD179CA1E6E976D00E4A72A = {
+			isa = PBXGroup;
+			children = (
+				1DD179D51E6E976D00E4A72A /* CLICKAT_replication2 */,
+				1DD179D41E6E976D00E4A72A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD179D41E6E976D00E4A72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD179D31E6E976D00E4A72A /* CLICKAT_replication2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD179D51E6E976D00E4A72A /* CLICKAT_replication2 */ = {
+			isa = PBXGroup;
+			children = (
+				1DD179D61E6E976D00E4A72A /* AppDelegate.swift */,
+				1DD179D81E6E976D00E4A72A /* ViewController.swift */,
+				1DD179DA1E6E976D00E4A72A /* Main.storyboard */,
+				1DD179E01E6E976D00E4A72A /* Assets.xcassets */,
+				1DD179E21E6E976D00E4A72A /* LaunchScreen.storyboard */,
+				1DD179E51E6E976D00E4A72A /* Info.plist */,
+				1DD179DD1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld */,
+				1DD179EB1E6E987F00E4A72A /* MainCollectionViewCell.swift */,
+			);
+			path = CLICKAT_replication2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD179D21E6E976D00E4A72A /* CLICKAT_replication2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD179E81E6E976D00E4A72A /* Build configuration list for PBXNativeTarget "CLICKAT_replication2" */;
+			buildPhases = (
+				1DD179CF1E6E976D00E4A72A /* Sources */,
+				1DD179D01E6E976D00E4A72A /* Frameworks */,
+				1DD179D11E6E976D00E4A72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLICKAT_replication2;
+			productName = CLICKAT_replication2;
+			productReference = 1DD179D31E6E976D00E4A72A /* CLICKAT_replication2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD179CB1E6E976D00E4A72A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "code-brew";
+				TargetAttributes = {
+					1DD179D21E6E976D00E4A72A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DD179CE1E6E976D00E4A72A /* Build configuration list for PBXProject "CLICKAT_replication2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD179CA1E6E976D00E4A72A;
+			productRefGroup = 1DD179D41E6E976D00E4A72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD179D21E6E976D00E4A72A /* CLICKAT_replication2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD179D11E6E976D00E4A72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD179E41E6E976D00E4A72A /* LaunchScreen.storyboard in Resources */,
+				1DD179E11E6E976D00E4A72A /* Assets.xcassets in Resources */,
+				1DD179DC1E6E976D00E4A72A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD179CF1E6E976D00E4A72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD179D91E6E976D00E4A72A /* ViewController.swift in Sources */,
+				1DD179D71E6E976D00E4A72A /* AppDelegate.swift in Sources */,
+				1DD179DF1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld in Sources */,
+				1DD179EC1E6E987F00E4A72A /* MainCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DD179DA1E6E976D00E4A72A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD179DB1E6E976D00E4A72A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DD179E21E6E976D00E4A72A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD179E31E6E976D00E4A72A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD179E61E6E976D00E4A72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DD179E71E6E976D00E4A72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD179E91E6E976D00E4A72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLICKAT_replication2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.CLICKAT-replication2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DD179EA1E6E976D00E4A72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLICKAT_replication2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.CLICKAT-replication2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD179CE1E6E976D00E4A72A /* Build configuration list for PBXProject "CLICKAT_replication2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD179E61E6E976D00E4A72A /* Debug */,
+				1DD179E71E6E976D00E4A72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD179E81E6E976D00E4A72A /* Build configuration list for PBXNativeTarget "CLICKAT_replication2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD179E91E6E976D00E4A72A /* Debug */,
+				1DD179EA1E6E976D00E4A72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DD179DD1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DD179DE1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodel */,
+			);
+			currentVersion = 1DD179DE1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodel */;
+			path = CLICKAT_replication2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DD179CB1E6E976D00E4A72A /* Project object */;
+}
