@@ -28,13 +28,14 @@ extension ViewController: UICollectionViewDataSource {
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cellForSection = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! MainCollectionViewCell
         cellForSection.imgMainHomeImage.image = UIImage(named: "background1")
         cellForSection.btnSection.setTitle("Section \(indexPath.section)", for: .normal)
+        
         return cellForSection
     }
 }

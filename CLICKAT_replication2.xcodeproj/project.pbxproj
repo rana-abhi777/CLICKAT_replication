@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D933F881E6EB0C200C1063F /* CategoryProductCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D933F871E6EB0C200C1063F /* CategoryProductCollectionView.swift */; };
+		1D933F8A1E6EB0FE00C1063F /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D933F891E6EB0FE00C1063F /* ProductCollectionViewCell.swift */; };
 		1DD179D71E6E976D00E4A72A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179D61E6E976D00E4A72A /* AppDelegate.swift */; };
 		1DD179D91E6E976D00E4A72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD179D81E6E976D00E4A72A /* ViewController.swift */; };
 		1DD179DC1E6E976D00E4A72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD179DA1E6E976D00E4A72A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D933F871E6EB0C200C1063F /* CategoryProductCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryProductCollectionView.swift; sourceTree = "<group>"; };
+		1D933F891E6EB0FE00C1063F /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		1DD179D31E6E976D00E4A72A /* CLICKAT_replication2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLICKAT_replication2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD179D61E6E976D00E4A72A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD179D81E6E976D00E4A72A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				1DD179E51E6E976D00E4A72A /* Info.plist */,
 				1DD179DD1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld */,
 				1DD179EB1E6E987F00E4A72A /* MainCollectionViewCell.swift */,
+				1D933F871E6EB0C200C1063F /* CategoryProductCollectionView.swift */,
+				1D933F891E6EB0FE00C1063F /* ProductCollectionViewCell.swift */,
 			);
 			path = CLICKAT_replication2;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			files = (
 				1DD179D91E6E976D00E4A72A /* ViewController.swift in Sources */,
 				1DD179D71E6E976D00E4A72A /* AppDelegate.swift in Sources */,
+				1D933F881E6EB0C200C1063F /* CategoryProductCollectionView.swift in Sources */,
 				1DD179DF1E6E976D00E4A72A /* CLICKAT_replication2.xcdatamodeld in Sources */,
+				1D933F8A1E6EB0FE00C1063F /* ProductCollectionViewCell.swift in Sources */,
 				1DD179EC1E6E987F00E4A72A /* MainCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +313,7 @@
 				1DD179EA1E6E976D00E4A72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
